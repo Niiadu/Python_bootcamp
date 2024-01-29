@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <h2>{{ 3 * 5 }}</h2>
+    <h2>{{ num }}</h2>
+</body>
+<footer>
+    <p>Copyright {{ this_year }}. Built by Jonas Adjin-Tettey</p>
+    <a href="{{ url_for('get_blog', num=3) }}">Go to blog</a>
+</footer>
+</html>
